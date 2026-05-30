@@ -1,0 +1,24 @@
+{
+  "name": "@cryptoflops/proof-pay-utils",
+  "version": "1.0.0",
+  "description": "Utility SDK for the proof-pay project.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Stacks Builder",
+  "license": "MIT",
+  "dependencies": {
+    "@stacks/transactions": "^6.15.0",
+    "@stacks/network": "^6.17.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
